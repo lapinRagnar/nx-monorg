@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "ngx-ubereats": "apps/ngx-ubereats",
+    "ngx-ubereats-e2e": "apps/ngx-ubereats-e2e"
+  }
+}
