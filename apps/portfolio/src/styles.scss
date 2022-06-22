@@ -2,3 +2,9 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0a192f;
+    color: white;
+}
