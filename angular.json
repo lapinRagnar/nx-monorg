@@ -4,6 +4,8 @@
   "projects": {
     "ngx-ubereats": "apps/ngx-ubereats",
     "ngx-ubereats-e2e": "apps/ngx-ubereats-e2e",
+    "portfolio": "apps/portfolio",
+    "portfolio-e2e": "apps/portfolio-e2e",
     "restaurant-app": "apps/restaurant-app",
     "restaurant-app-e2e": "apps/restaurant-app-e2e"
   }
