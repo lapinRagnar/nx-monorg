@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "ngx-ubereats": "apps/ngx-ubereats",
-    "ngx-ubereats-e2e": "apps/ngx-ubereats-e2e"
+    "ngx-ubereats-e2e": "apps/ngx-ubereats-e2e",
+    "restaurant-app": "apps/restaurant-app",
+    "restaurant-app-e2e": "apps/restaurant-app-e2e"
   }
 }
