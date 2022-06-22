@@ -7,6 +7,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 // import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    RouterRoutingModule
+    RouterRoutingModule,
+    NgbModule
     // RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
   ],
   providers: [],
