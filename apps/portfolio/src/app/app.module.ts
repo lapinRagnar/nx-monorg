@@ -1,15 +1,24 @@
+import { RouterRoutingModule } from './router/router-routing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { RouterModule } from '@angular/router';
+// import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [
+    AppComponent,
+    NxWelcomeComponent,
+    HeaderComponent,
+    HomeComponent,
+  ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
+    RouterRoutingModule
+    // RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
   ],
   providers: [],
   bootstrap: [AppComponent],
