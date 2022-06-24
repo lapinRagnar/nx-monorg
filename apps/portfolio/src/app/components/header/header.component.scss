@@ -1,11 +1,17 @@
 .couleur-de-fond{
-    background-color: #0a192f!important;
+    // background-color: #0a192f!important;
+    background-color: #000006!important;
+
     color: white!important;
     padding-top: 30px;
     padding-bottom: 30px;
     
     &:hover{
-        box-shadow: .8em .2em olive, -1em 0 4em olive;
+        box-shadow: -1em 0 4em olive;
         background-color: #041a38bd!important;
     }
+}
+
+.navbar-brand{
+    width: 50px;
 }

@@ -2,9 +2,17 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    // font-family: "Calibre","Inter","San Francisco","SF Pro Text";
+    font-family: "Mirza";
     background-color: #0a192f;
     color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
