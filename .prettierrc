@@ -1,3 +1,9 @@
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "formattingToggle.affects": [
+    "editor.formatOnSave",
+    "editor.formatOnPaste",
+    "editor.formatOnType"
+  ]
+
 }
